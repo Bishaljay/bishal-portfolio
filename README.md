@@ -95,8 +95,6 @@ For **Sanity Studio** (`/backend`):
 
 ## 📬 Contact
 
-* LinkedIn: [Bishal Jaysawal](https://www.linkedin.com/in/bishaljay)
-* GitHub: [Bishaljay](https://github.com/Bishaljay)
 * Email: bjbishal075@gmail.com
 
 ---
