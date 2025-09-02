@@ -1,0 +1,7 @@
+{
+  "name": "bishal-portfolio",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"cd frontend && npm start\" \"cd portfolio-backend && sanity start\""
+  }
+}

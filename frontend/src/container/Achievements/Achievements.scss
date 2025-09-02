@@ -1,0 +1,67 @@
+.app__achievements {
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+}
+
+.app__achievements-container {
+  width: 80%;
+  margin-top: 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.app__achievement-item {
+  flex: 0 0 45%;
+  background-color: #f5f5f5;
+  margin: 1rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  cursor: default;
+  transition: transform 0.3s ease-in-out;
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.15);
+  }
+
+  h4 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-weight: 400;
+    color: var(--gray-color);
+  }
+
+  .achievement-year {
+    display: block;
+    margin-top: 0.5rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+  }
+
+  @media screen and (max-width: 900px) {
+    flex: 0 0 90%;
+  }
+
+  @media screen and (min-width: 2000px) {
+    flex: 0 0 40%;
+    padding: 2rem;
+    h4 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 1.5rem;
+    }
+  }
+}
